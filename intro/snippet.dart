@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: const Text('Implicit Animations Demo')),
         body: Center(
           child: Container(
-            width: 50.0,
-            height: 50.0,
+            width: 150.0,
+            height: 150.0,
             color: Colors.blue,
           ),
         ),
