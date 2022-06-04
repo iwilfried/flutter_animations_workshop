@@ -12,40 +12,41 @@ To create an appbar in flutter we have to call its constructor and provide requi
 ## Flutter AppBar Constructor :
 
 AppBar({
-    Key? key, 
-    Widget? leading, 
-    bool automaticallyImplyLeading, 
-    Widget? title, 
-    List<Widget>? actions, 
-    Widget? flexibleSpace, 
-    PreferredSizeWidget? bottom, 
-    double? elevation, 
-    Color? shadowColor, 
-    ShapeBorder? shape, 
-    Color? backgroundColor, 
-    Color? foregroundColor, 
-    Brightness? brightness, 
-    IconThemeData? iconTheme, 
-    IconThemeData? actionsIconTheme, 
-    TextTheme? textTheme, 
-    bool primary, 
-    bool? centerTitle, 
-    bool excludeHeaderSemantics, 
-    double? titleSpacing, 
-    double toolbarOpacity, 
-    double bottomOpacity, 
-    double? toolbarHeight, 
-    double? leadingWidth, 
-    bool? backwardsCompatibility, 
-    TextStyle? toolbarTextStyle, 
-    TextStyle? titleTextStyle, 
-    SystemUiOverlayStyle? systemOverlayStyle
-  }) 
+    Key? key,   
+    Widget? leading,   
+    bool automaticallyImplyLeading,   
+    Widget? title,   
+    List<Widget>? actions,   
+    Widget? flexibleSpace,   
+    PreferredSizeWidget? bottom,   
+    double? elevation,   
+    Color? shadowColor,   
+    ShapeBorder? shape,   
+    Color? backgroundColor,   
+    Color? foregroundColor,   
+    Brightness? brightness,   
+    IconThemeData? iconTheme,   
+    IconThemeData? actionsIconTheme,   
+    TextTheme? textTheme,   
+    bool primary,   
+    bool? centerTitle,   
+    bool excludeHeaderSemantics,   
+    double? titleSpacing,   
+    double toolbarOpacity,   
+    double bottomOpacity,   
+    double? toolbarHeight,   
+    double? leadingWidth,   
+    bool? backwardsCompatibility,   
+    TextStyle? toolbarTextStyle,   
+    TextStyle? titleTextStyle,   
+    SystemUiOverlayStyle? systemOverlayStyle  
+  })   
 
 ## Goals
 
 In this workshop, you'll learn how to transform a simple `AppBar` into the...   
 
+A one-line description used by the device to identify the app for the user.   
 
 <details>
   <summary>Click to see the final animation!</summary>
