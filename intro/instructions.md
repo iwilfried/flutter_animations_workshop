@@ -3,21 +3,44 @@
 AppBar is a material widget in flutter which is most commonly used in almost all kinds of applications. Appbar will display the toolbar that we see in every application. It also displays several widgets like the `title` of the screen, the back button `[](image.png)` / close button `(‘x‘)` & actions like search, etc.  
 
 
-
-The actions are indicated using icon buttons. It is also responsible for displaying a PopupMenuButton ( overflow menu ) which is used for actions that are performed less frequently.  
-
-
-In this workshop you're going to learn how to develop and modify the AppBar widget.
-
-### Author
-
-This workshop is authored by Accelerated Learning ([](https://doc-tools.org)), feel free to reach out! If you have any questions or comments about this workshop, please [file an issue](https://github.com/iwilfried/flutter_animations_workshop/issues/new).  
+The actions are indicated using icon buttons. It is also responsible for displaying a PopupMenuButton ( overflow menu ) which is used for actions that are performed less frequently. In this workshop you're going to learn how to develop and modify the AppBar widget.  
 
 
 ## Creating And Displaying AppBar
 To create an appbar in flutter we have to call its constructor and provide required properties. There are `no required properties` for this widget but generally, we will use the title property. This property is used to describe the contents of the current screen.  
 
 ## Flutter AppBar Constructor :
+
+AppBar({
+    Key? key, 
+    Widget? leading, 
+    bool automaticallyImplyLeading, 
+    Widget? title, 
+    List<Widget>? actions, 
+    Widget? flexibleSpace, 
+    PreferredSizeWidget? bottom, 
+    double? elevation, 
+    Color? shadowColor, 
+    ShapeBorder? shape, 
+    Color? backgroundColor, 
+    Color? foregroundColor, 
+    Brightness? brightness, 
+    IconThemeData? iconTheme, 
+    IconThemeData? actionsIconTheme, 
+    TextTheme? textTheme, 
+    bool primary, 
+    bool? centerTitle, 
+    bool excludeHeaderSemantics, 
+    double? titleSpacing, 
+    double toolbarOpacity, 
+    double bottomOpacity, 
+    double? toolbarHeight, 
+    double? leadingWidth, 
+    bool? backwardsCompatibility, 
+    TextStyle? toolbarTextStyle, 
+    TextStyle? titleTextStyle, 
+    SystemUiOverlayStyle? systemOverlayStyle
+  }) 
 
 ## Goals
 
@@ -42,7 +65,11 @@ You'll create that animation using the following widgets:
 
 You're going to start with a simple application that contains a blue Container
 in the centre. Let's click the **Run** in the top right corner to see how it
-looks now.
+looks now.  
+
+### Author
+
+This workshop is authored by Accelerated Learning ([](https://doc-tools.org)), feel free to reach out! If you have any questions or comments about this workshop, please [file an issue](https://github.com/iwilfried/flutter_animations_workshop/issues/new).  
 
 If you are ready, go to the next step!
 
