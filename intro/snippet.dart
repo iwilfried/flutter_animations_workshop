@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'AppBar Demo',
       debugShowCheckedModeBanner: false,
-      theme: themeData(
+      theme: ThemeData(
       useMaterial3: true,
       ),
       home: Scaffold(
