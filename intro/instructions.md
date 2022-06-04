@@ -44,9 +44,14 @@ AppBar({
 
 ## Goals
 
-In this workshop, you'll learn how to transform a simple `AppBar` into the...   
+In this workshop, you'll learn how to transform a simple `AppBar` into the... 
 
+Line 14: deletes the banner
 A one-line description used by the device to identify the app for the user.   
+
+Line 15: default scaffold container   
+
+
 
 <details>
   <summary>Click to see the final animation!</summary>
