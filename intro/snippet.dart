@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Implicit Animations Demo',
+      title: 'AppBar Demo',
       home: Scaffold(
-        appBar: AppBar(title: const Text('Implicit Animations Demo')),
+        appBar: AppBar(title: const Text('AppBar Demo')),
         body: Center(
           child: Container(
             width: 150.0,
