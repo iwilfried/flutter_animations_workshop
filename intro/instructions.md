@@ -10,16 +10,11 @@ This workshop is authored by Accelerated Learning ([](https://doc-tools.org)), f
 
 If you have any questions or comments about this workshop, please [file an issue](https://github.com/iwilfried/flutter_animations_workshop/issues/new).
 
-## Implicit Animations
 
-Implicitly Animated Widgets are widgets that automatically animate to the target
-values when a new value is set. It means that you don't have to do any
-calculations, all you have to do is use `setState()` on your widget and Flutter
-will take care of the rest!
+## Creating And Displaying AppBar
+To create an appbar in flutter we have to call its constructor and provide required properties. There are no required properties for this widget but generally, we will use the title property. This property is used to describe the contents of the current screen.
 
-Using Implicit Animations is a perfect solution when you want simple animations
-that don't require a lot of customising. You can also compose smaller Implicitly
-Animated Widgets to build more complex animations.
+## Flutter AppBar Constructor :
 
 ## Goals
 
