@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: const Text('AppBar Demo')),
         body: Center(
           child: Container(
-            width: 150.0,
-            height: 150.0,
+            width: 80.0,
+            height: 80.0,
             color: Colors.blue,
           ),
         ),
