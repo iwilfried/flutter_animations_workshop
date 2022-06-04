@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'AppBar Demo',
       debugShowCheckedModeBanner: false,
+      useMaterial3: true,
       home: Scaffold(
         appBar: AppBar(title: const Text('AppBar Demo')),
         body: Center(
