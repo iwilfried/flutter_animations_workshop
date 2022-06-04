@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'AppBar Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-      useMaterial3: true,
+        useMaterial3: true,
       ),
       home: Scaffold(
         appBar: AppBar(title: const Text('AppBar Demo')),
