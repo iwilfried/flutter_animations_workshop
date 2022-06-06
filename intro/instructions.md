@@ -1,7 +1,6 @@
 # Flutter AppBar Widget Properties 
 
-Almost Every mobile application uses an AppBar. Since everything in flutter is basically a widget, the app bar is also a widget that is placed in a `scaffold widget`.  
-That means the app bar is one of the child widget of the scaffold, which places the AppBar as a fixed-height widget at the top of the screen.  
+Almost Every mobile application uses an AppBar. Since everything in flutter is basically a widget, the app bar is also a widget that is placed in a `scaffold widget`. That means the app bar is one of the child widget of the scaffold, which places the AppBar as a fixed-height widget at the top of the screen.  
 
 The AppBar widget is based on Material Design, so we need to import the Material Components package for the flutter
 
@@ -12,9 +11,10 @@ The AppBar widget is based on Material Design, so we need to import the Material
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),  // AppBar with no properties
+
       body: Center(
         child: Text(
-          "Creating an AppBar"
+        'Creating an AppBar'
         ),
       ),
     );
@@ -26,6 +26,25 @@ The actions are indicated using icon buttons. It is also responsible for display
 
 ## Creating And Displaying AppBar
 To create an appbar in flutter we have to call its constructor and provide required properties. There are `no required properties` for this widget but generally, we will use the title property. This property is used to describe the contents of the current screen.  
+
+#### Table of Contents hide  
+1 Flutter AppBar Widget   
+2 Creating And Displaying AppBar  
+3 Flutter AppBar Properties  
+3.1 leading  
+3.2 automaticallyImplyLeading  
+3.3 title  
+3.4 centerTitle  
+3.5 actions  
+3.6 elevation  
+3.7 shadowColor  
+3.8 shape  
+3.9 backgroundColor  
+3.10 textTheme  
+3.11 actionsIconTheme  
+3.12 toolbarHeight  
+4 Flutter AppBar Example  
+
 
 ## Flutter AppBar Constructor :
 
