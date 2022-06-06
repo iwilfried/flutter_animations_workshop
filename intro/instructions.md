@@ -10,6 +10,9 @@ Almost Every mobile application uses an AppBar. Since everything in flutter is b
 The AppBar widget is based on Material Design, so we need to import the Material Components package for the flutter
 
 ```  
+ import 'package: flutter/material.dart'  
+
+ 
 @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,7 +21,7 @@ The AppBar widget is based on Material Design, so we need to import the Material
     );
   }  
   ```  
-  
+
 The actions are indicated using icon buttons. It is also responsible for displaying a PopupMenuButton ( overflow menu ) which is used for actions that are performed less frequently. In this workshop you're going to learn how to develop and modify the AppBar widget.  
 
 
