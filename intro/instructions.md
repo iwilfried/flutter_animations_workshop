@@ -1,8 +1,24 @@
 # Introduction Flutter AppBar Widget
 
-AppBar is a material widget in flutter which is most commonly used in almost all kinds of applications. Appbar will display the toolbar that we see in every application. It also displays several widgets like the `title` of the screen, the back button `[](image.png)` / close button `(‘x‘)` & actions like search, etc.  
+AppBar is a material widget in flutter which is most commonly used in almost all kinds of applications. Appbar will display the toolbar that we see in every application. It also displays several widgets like the `title` of the screen, the back button `[](image.png)` / close button `(‘x‘)` & actions like search, etc. 
+
+## Flutter AppBar Widget Properties 
+
+Almost Every mobile application uses an AppBar. Since everything in flutter is basically a widget, the app bar is also a widget that is placed in a scaffold widget. That means the app bar is one of the child widget of the scaffold, which places the AppBar as a fixed-height widget at the top of the screen.  
 
 
+The AppBar widget is based on Material Design, so we need to import the Material Components package for the flutter
+
+```  
+@override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(),
+      body: Center(child: Text("www.flutterant.com")),
+    );
+  }  
+  ```  
+  
 The actions are indicated using icon buttons. It is also responsible for displaying a PopupMenuButton ( overflow menu ) which is used for actions that are performed less frequently. In this workshop you're going to learn how to develop and modify the AppBar widget.  
 
 
